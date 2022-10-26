@@ -1,0 +1,39 @@
+.navdiv{
+width: 100%;
+  box-shadow: 0px 0px 3.5px -1px;
+  float:right;
+  position: relative;
+}
+ul {
+  position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+font-size: 25px;
+  border: none;
+transform: translate(150%,10%);  
+}
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.btnwallet{
+  background-color: #38b3ac;
+  border-radius: 10px;
+  
+}
+
+.btnwallet:hover{
+  opacity: 0.9;
+  color: white;
+}
